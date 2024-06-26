@@ -9,7 +9,11 @@ import {MatSelectModule} from '@angular/material/select';
 import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatChipsModule} from '@angular/material/chips';
-import {MatGridListModule} from '@angular/material/grid-list'
+import {MatGridListModule} from '@angular/material/grid-list';
+import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatListModule} from '@angular/material/list';
+
+
 
 
 @NgModule({
@@ -24,7 +28,9 @@ import {MatGridListModule} from '@angular/material/grid-list'
     MatInputModule,
     MatFormFieldModule,
     MatChipsModule,
-    MatGridListModule
+    MatGridListModule,
+    MatSidenavModule,
+    MatListModule
   ]
 })
 
